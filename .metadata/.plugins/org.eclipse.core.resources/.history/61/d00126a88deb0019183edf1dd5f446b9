@@ -1,0 +1,5 @@
+package ca.gbc.ass;
+
+public class EmailHandler {
+
+}

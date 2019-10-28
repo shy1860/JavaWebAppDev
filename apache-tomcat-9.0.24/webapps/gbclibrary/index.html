@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+ <div include-html="navigation.html">My HTML include will go here.</div>
+<script src="loadpage.js"></script>
+
+<h1>GBC Library</h1>
+<div style=" margin:auto;">
+  <div style="align:left;display:inline-block; height:200px;width:20%;text-align:left;float:left;padding:20px; border: 6px solid blue;">
+    <form action="AdminAuthenticate" method="post">
+     <h3>Admin Login</h3>
+Email Address:<br>
+  <input type="email" name="adminEmail" placeholder="shy1860@hotmail.com"><br>
+  Password:<br>
+  <input type="password" name="adminPassword" placeholder="101053814"><br><br>
+  <input type="submit" value="Submit">
+    </form>
+  </div> 
+  <div style="align:left;display:inline-block; width:10%; text-align:left;float:left;padding:1px;border: 0px solid blue;">  </div> 
+  <div style="align:left;display:inline-block; height:200px;width:20%; text-align:left;float:right;padding:20px; border: 6px solid blue;">
+    <form action="LibrarianAuthenticateServelet" method="post">
+     <h3>Librarian Login</h3>
+Email Address:<br>
+  <input type="text" name="lbemail" value="shy0105030228@gmail.com"><br>
+  Password:<br>
+  <input type="text" name="lbpswd" value="0105030228"><br><br>
+  <input type="submit" value="Submit">
+    </form>
+  </div>
+</div><br>
+<div include-html="footer.html" style="width:100%;position:fixed;bottom:0;windth=100%">My HTML include will go here.</div>
+<script src="loadpage.js"></script>
+
+
+
+</body>
+</html>

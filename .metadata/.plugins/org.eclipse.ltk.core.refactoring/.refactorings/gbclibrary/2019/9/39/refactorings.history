@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;gbclibrary/src/ca/gbc/library/servlet/auth.java&apos; to &apos;AuthADM.java&apos;" description="Rename resource &apos;auth.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/ca/gbc/library/servlet/auth.java" name="AuthADM.java" stamp="1569242286605" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;gbclibrary/WebContent/admin.html&apos; to &apos;adminhome.html&apos;" description="Rename resource &apos;admin.html&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/admin.html" name="adminhome.html" stamp="1569242624840" updateReferences="true"/>
+</session>
